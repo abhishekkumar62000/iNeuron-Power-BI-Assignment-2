@@ -1,0 +1,77 @@
+1. Advantages of Natural Queries in Power BI (with Example)
+Natural Queries (Q&A feature) in Power BI allow users to ask questions in natural language and get instant insights.
+
+Advantages:
+User-Friendly: No coding or technical skills required.
+Fast Insights: Provides instant answers using AI.
+Dynamic Filtering: Auto-suggests relevant filters.
+Integration: Works seamlessly with Power BI reports and dashboards.
+Example:
+A sales manager can type:
+"What were the total sales in January 2024?"
+Power BI instantly generates a report with the sales data.
+
+
+2. Web Front End (WFE) Cluster in Power BI Service Architecture
+The WFE cluster handles user authentication and access requests. It ensures secure login and directs users to the right resources.
+
+Key Functions:
+Authentication: Uses Azure AD for login security.
+Load Balancing: Distributes user traffic efficiently.
+Redirection: Routes users to the appropriate resources in Power BI Service.
+
+
+3. Back End Cluster in Power BI Service Architecture
+The Back-End Cluster manages Power BI operations, data storage, and report processing.
+
+Key Functions:
+Data Storage: Stores datasets, reports, and dashboards.
+Data Processing: Runs queries and calculations.
+Collaboration: Manages sharing and user access to reports.
+
+
+4. ASP.NET Component in Power BI Service Architecture
+The ASP.NET Component in Power BI Service Architecture:
+
+Manages API Calls: Handles communication between Power BI reports and the service.
+Handles User Requests: Processes user interactions with dashboards.
+Ensures Security: Provides authentication and access control.
+
+
+
+5. Comparison: Microsoft Excel vs. Power BI Desktop**  
+
+| Feature            | Microsoft Excel        | Power BI Desktop         |  
+|-------------------|----------------------|------------------------|  
+| **Data Import**   | Imports from CSV, Excel, SQL | Connects to 100+ data sources (SQL, Azure, APIs, etc.) |  
+| **Data Transformation** | Limited transformations via Power Query | Advanced transformations with Power Query |  
+| **Modeling**      | Basic relationships, no advanced modeling | Advanced DAX, multiple relationships |  
+| **Reporting**     | Static tables and charts | Interactive dashboards and visualizations |  
+| **Server Deployment** | Manual file sharing (OneDrive, SharePoint) | Power BI Service for cloud-based sharing |  
+| **Convert Models** | Limited (Excel formulas) | Can convert Excel models into Power BI reports |  
+| **Cost**          | One-time purchase (Office) | Power BI Desktop (Free), Power BI Pro (Paid) |  
+
+---
+
+6. 20 Data Sources Supported by Power BI Desktop**  
+
+1. SQL Server  
+2. MySQL  
+3. PostgreSQL  
+4. Oracle Database  
+5. Microsoft Excel  
+6. Google BigQuery  
+7. Azure SQL Database  
+8. SharePoint  
+9. Salesforce  
+10. Amazon Redshift  
+11. SAP HANA  
+12. IBM DB2  
+13. Microsoft Access  
+14. OData Feed  
+15. JSON  
+16. XML  
+17. Web API  
+18. Microsoft Exchange  
+19. Power BI Datasets  
+20. Google Analytics  
